@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+/* @theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+} */
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+      /* Nous colors de la pàgina */
+    --color-terracota: #E2725B;
+    --color-terracota-oscuro: #C9654F;
+    --color-fondo: #F9F6F2;
+    --color-gris-suave: #F0F0F0;
+    --color-arena: #E5E0D8;
+    --color-verde-etiqueta: #A7C4A0;
+    --color-mostaza-etiqueta: #E5C28E;
+    --color-texto-oscuro: #2D2D2D;
+    --color-texto-medio: #6B6B6B;
+    --color-marron-oscuro: #4A3B2A;
+    --color-verde-oscuro: #2C5E3A;
+    --color-marron-medio: #6B5A48;
+
+
+    /* Colors per defecte */
+    /* --color-zinc-50: #fafafa;
+    --color-zinc-100: #f5f5f5;
+    --color-zinc-200: #e5e5e5;
+    --color-zinc-300: #d4d4d4;
+    --color-zinc-400: #a3a3a3;
+    --color-zinc-500: #737373;
+    --color-zinc-600: #525252;
+    --color-zinc-700: #404040;
+    --color-zinc-800: #262626;
+    --color-zinc-900: #171717;
+    --color-zinc-950: #0a0a0a;
+
+    --color-accent: var(--color-neutral-800);
+    --color-accent-content: var(--color-neutral-800);
+    --color-accent-foreground: var(--color-white); */
+}
+
+html,
+body {
+  @apply bg-white dark:bg-gray-950;
+
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+  }
+}
